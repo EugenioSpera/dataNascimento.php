@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.select_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    width: 200px;
+}
+
+button{
+    border-radius: 5px;
+
+button:hover{
+    background-color: blueviolet;,
+    color: #FFF;
+}
